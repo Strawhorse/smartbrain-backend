@@ -1,2 +1,2 @@
 # smartbrain-backend
-Smartbrain backend written in Express using Node.js, bcrypt, and knex
+Backend for smartbrain website written in Express, and using PostgreSQL, bcrypt, cors, and knex modules

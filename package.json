@@ -1,0 +1,40 @@
+{
+  "engines": {
+    "node": "16.15.0",
+    "npm": ">=8"
+  },
+  "name": "smartbrain-api",
+  "version": "1.0.0",
+  "description": "Backend for smartbrain website written in Express, and using PostgreSQL, bcrypt, cors, and knex modules",
+  "main": "index.js",
+  "scripts": {
+    "dev": "react-scripts start",
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "heroku-postbuild": "npm run build"
+  },
+  "keywords": [],
+  "type": "module",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react-scripts": "4.0.2",
+    "bcrypt-nodejs": "^0.0.3",
+    "clarifai": "^2.9.1",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "knex": "^2.1.0",
+    "pg": "^8.7.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Strawhorse/smartbrain-backend.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Strawhorse/smartbrain-backend/issues"
+  },
+  "homepage": "https://github.com/Strawhorse/smartbrain-backend#readme"
+}
